@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Opcional2</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="estilos.css" />
+</head>
+ 
+<body background="fondo.jpg">
+    <header>
+      <nav id="opcional2">
+        <ul>
+          <li><a href="#">Vertical</a>
+            <ul>
+              <li><a href="vertical.html">Vertical</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Horizontal</a>
+             <ul>
+                <li><a href="horizontal.html">Horizontal</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Desplegable</a>
+            <ul>
+              <li><a href="desplegable.html">Desplegable</a></li>
+            </ul>
+          <li><a href="#">Opcional1</a>
+            <ul>
+              <li><a href="opcional1.html">Opcional1</a></li>
+            </ul>
+        </ul>
+      </nav>
+      <h1>Conversación simulada
+    </header>
+  <main id ="conversacion">
+    <h3>Hola ¿cómo estás?</h3>
+    <h3 id="linea">Hola, ¡todo bien!</h3>
+    <h3>A ver si nos vemos pronto</h3>
+    <h3 id="linea">Espero que si, un saludo</h3>
+
+  </main>
+  <footer>
+    <style>
+#navlist {
+  position: relative;
+  width: 216px;
+  height: 144px;
+  margin: 10px 0 0 0;
+  padding: 5px 0 0 0;
+}
+
+#navlist li {
+  list-style: none;
+  float: left;
+}
+
+#navlist li, #navlist a {
+  width: 72px;
+  height: 72px;
+  display: block;
+}
+
+#facebook {
+    left: 0px;
+    width: 46px;
+    background: url('sprite.png') 0 0;
+}
+
+#twitter {
+    left: 63px;
+    width: 43px;
+    background: url('sprite.png')  -72px 0;
+}
+
+#gmail {
+    left: 129px;
+    width: 43px;
+    background: url('sprite.png') -144px 0;
+}
+
+#facebook a:hover {
+    background: url('sprite.png') 0 -72px;
+}
+
+#twitter a:hover {
+    background: url('sprite.png') -72px -72px;
+}
+
+#gmail a:hover {
+    background: url('sprite.png') -144px -72px;
+}
+</style>
+<ul id="navlist">
+  <li id="facebook"><a href="https://www.facebook.com/"></a></li>
+  <li id="twitter"><a href="https://twitter.com"></a></li>
+  <li id="gmail"><a href="mailto:adriancarmonabelmonte@gmail.com""></a></li>
+</ul>
+  </footer>
+</body>
+</html>

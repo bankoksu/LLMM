@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Horizontal</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="estilos.css" />
+</head>
+ 
+<body background="fondo1.jpg">
+    <header>
+      <nav id="horizontal">
+        <ul>
+          <li><a href="vertical.html" title="...">Vertical</a></li>
+          <li><a href="desplegable.html" title="...">Desplegable</a></li>
+          <li><a href="opcional1.html" title="...">Opcional1</a></li>
+          <li><a href="opcional2.html" title="...">Opcional2</a></li>
+        </ul>
+      </nav>
+      <h1>Este es un menú desplegable
+    </header>
+  <main>
+    <section>
+      <h2>A continuación texto de ejemplo:<h2>
+      <article>
+        <h3>Texto ejemplo:</h3>
+        <p>¿Qué es HTML? Actualmente la mayoría de las personas han visto cientos de páginas web pero muchos se preguntarán ¿Qué es HTML? ¿Para qué me sirve? ¿Cómo funciona? ¿Es difícil escribir en HTML? ¿Dónde puedo escribir HTML? Y otras preguntas como estas serán respondidas a continuación.
+    Si buscas en GOOGLE o en cualquier otro buscador la definición de HTML, probablemente encontrarás está:
+    “HTML es un lenguaje de programación que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto”.
+    No obstante, este tipo de definiciones no nos dice mucho porque la definición es técnica. Para algunas personas al leer esto, piensan que HTML incluye el diseño gráfico de las páginas web, sin embargo, eso no es cierto ya que HTML sólo sirve para indicar como va ordenado el contenido de una página web. Esto lo hace por medio de las marcas de hipertexto las cuales son etiquetas conocidas en inglés como tags.</p>
+        </article>
+    </section>
+  </main>
+  <footer>
+    <style>
+#navlist {
+  position: relative;
+  width: 216px;
+  height: 144px;
+  margin: 10px 0 0 0;
+  padding: 5px 0 0 0;
+}
+
+#navlist li {
+  list-style: none;
+  float: left;
+}
+
+#navlist li, #navlist a {
+  width: 72px;
+  height: 72px;
+  display: block;
+}
+
+#facebook {
+    left: 0px;
+    width: 46px;
+    background: url('sprite.png') 0 0;
+}
+
+#twitter {
+    left: 63px;
+    width: 43px;
+    background: url('sprite.png')  -72px 0;
+}
+
+#gmail {
+    left: 129px;
+    width: 43px;
+    background: url('sprite.png') -144px 0;
+}
+
+#facebook a:hover {
+    background: url('sprite.png') 0 -72px;
+}
+
+#twitter a:hover {
+    background: url('sprite.png') -72px -72px;
+}
+
+#gmail a:hover {
+    background: url('sprite.png') -144px -72px;
+}
+</style>
+<ul id="navlist">
+  <li id="facebook"><a href="https://www.facebook.com/"></a></li>
+  <li id="twitter"><a href="https://twitter.com"></a></li>
+  <li id="gmail"><a href="mailto:adriancarmonabelmonte@gmail.com""></a></li>
+</ul>
+  </footer>
+
+</body>
+</html>

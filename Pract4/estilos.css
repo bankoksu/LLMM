@@ -1,0 +1,179 @@
+#vertical ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+#vertical ul li {
+    background-color: #666;
+}
+
+#vertical ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+#vertical ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+    border-left: 10px solid #666;
+}
+
+#horizontal ul{
+   list-style-type: none;
+   text-align: center;
+}
+#horizontal li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#horizontal li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#horizontal li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+
+}
+#desplegablel {
+    font-family: verdana, sans sherif;
+    width: 80%;
+    margin: 1.5rem auto;
+}
+#desplegable ul {
+    list-style-type: none; 
+    text-align: center;
+    font-size: 0;
+}
+#desplegable > ul li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    background: #edcf65;
+}
+#desplegable li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color: #444;
+}
+#desplegable li:hover a, #desplegable li a:focus {
+    background: #8DA889;
+    color: #fff;
+}
+
+#desplegable li ul {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+}
+#desplegable li:hover ul, #desplegable li:focus ul {
+    width: 100%;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+    z-index: 5;
+}
+#desplegable li li {
+    display: block;
+    width: 100%;
+}
+#desplegable li:hover li a, #desplegable li:focus li a {
+    font-family: monospace;
+    font-size: .9rem;
+    line-height: 1.7rem;
+    border-top: 1px solid #e5e5e5;
+    background: #444;
+}
+#desplegable li li a:hover, #desplegable li li a:focus {
+    background: #8AA9B8; 
+}
+
+
+#opcional1 ul {
+  list-style: none;
+  overflow: hidden;
+}
+ 
+#opcional1 ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background: #ff8000;
+
+}
+ 
+#opcional1 ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+#opcional1 ul li:hover {
+  background: #3ead47;
+}
+
+#opcional2 {  text-align: center;
+font-size: 0.7em;
+width: 320px;
+margin: 20px;
+}
+#opcional2 ul { list-style-type: none;
+}
+#opcional2 ul li.nivel1 { 
+width: 162px;
+}
+#opcional2 ul li.primera { border-top: solid 1px #FFF;
+}
+#opcional2 ul li a {display: block;
+text-decoration: none;
+color: #fff;
+background-color: #399;
+border: solid 1px #fff;
+border-top: none;
+padding: 8px;
+position: relative;
+}
+
+#linea {
+		position: relative;
+		left: 2cm;
+	}
+
+#opcional2 ul li:hover {position: relative;
+background-color: #6CC;
+color: #000;
+}
+#opcional2 ul li a:hover, #opcional2 ul li:hover a.nivel1 {background-color: #6CC;
+color: #000;
+position: relative;
+}
+#opcional2 ul li a.nivel1 {display: block!important;display: none;
+position: relative;
+}
+#opcional2 ul li ul {display: none;
+}
+#opcional2 ul li a:hover ul, #opcional2 ul li:hover ul {display: block;
+position: absolute;left: 161px;top:-1px!important;top: -31px;
+}
+#opcional2 ul li ul li a {width: 160px;
+background-color: #6CC;
+color: #000;
+}
+#opcional2 ul li ul li a:hover {position: relative;
+background-color: #399;
+color: #FFF;
+
