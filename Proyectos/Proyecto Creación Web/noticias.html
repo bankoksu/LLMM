@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Noticias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">                     
+    <link rel="stylesheet" type="text/css" href="./css/noticias.css" media="all">
+    <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/icono.ico">
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script>
+        $(function() {
+            var showTotalChar = 200, showChar = "Leer más... (+)", hideChar = "Leer menos... (-)";
+            $('.show').each(function() {
+                var content = $(this).text();
+                if (content.length > showTotalChar) {
+                    var con = content.substr(0, showTotalChar);
+                    var hcon = content.substr(showTotalChar, content.length - showTotalChar);
+                    var txt= con +  '<span class="dots">...</span><span class="morectnt"><span>' + hcon + '</span>&nbsp;&nbsp;<a href="" class="showmoretxt">' + showChar + '</a></span>';
+                    $(this).html(txt);
+                }
+            });
+            $(".showmoretxt").click(function() {
+                if ($(this).hasClass("sample")) {
+                    $(this).removeClass("sample");
+                    $(this).text(showChar);
+                } else {
+                    $(this).addClass("sample");
+                    $(this).text(hideChar);
+                }
+                $(this).parent().prev().toggle();
+                $(this).prev().toggle();
+                return false;
+            });
+        });
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38304687-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head>
+<body>
+  <header id="main-header">
+
+    <a id="logo" href="https://www.playbattlegrounds.com/main.pu"><img src="./img/logo.png" alt="logo" width="200" height="160"></a> 
+
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="guia.html">Guia</a></li>
+            <li><a href="mapas.html">Mapas</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="registro.html">Registro</a></li>
+        </ul>
+    </nav><!-- / nav -->
+
+</header><!-- / #main-header -->
+
+
+<section id="main-content">
+    <h2>NOTICIAS</h2>
+    <article>
+        <header>
+            <h3>PUBG se incorporará al sistema de torneos de StarSeries iLeague</h3>
+        </header>
+        
+        <img src="./img/noticia.jpg" alt="noticia"/>
+        
+        <div class="content">
+            <div class="show">Tras el lanzamiento hace un mes de la actualización 1.0, y el anuncio de su nueva competencia de la mano de Tencent, parece que PUBG ampliará su participación en el mundo de los torneos. Y esto no es de extrañar, puesto que en los últimos meses se ha podido apreciar que la escena profesional PUBG atrae cada vez más la atención. El battle royale de Bluehole ya ha dejado su huella con algunos torneos en 2017. Sin embargo, parece que 2018 estará repleto de torneos más emocionantes con su entrada en la StarSeries i-League. Y es que con ello parece que PlayerUnknown’s Battlegrounds no para de expandirse, esta vez en el mundo del competitivo de los eSports. Y más concretamente en la StarSeries i-League. Esta incorporación al sistema de torneos se realizará en 2018, es decir, dentro de nada.</div>
+        </div>
+    </article>
+
+    <article>
+        <header>
+            <h3>BattlEye banea a más de un millón y medio de jugadores</h3>
+        </header>
+        
+        <img src="./img/noticia2.jpg" alt="noticia"/>
+        
+        <div class="content">
+            <div class="show">
+            Tras las primeras rondas de baneos donde se logró banear a más de 320.000 tramposo. Ahora,  BattlEye vuelve a ponerse las pilas con los baneos. Los 320.000 iniciales se han convertido en más de 1.5 millones de tramposos baneados  Y es que cuanto más aumenta el numero de jugadores más posibilidades hay de que haya tramposos. Con casi más de 30 millones de jugadores y alcanzando los 3 millones de jugadores simultáneos raro es no encontrarse algún hacker o cheater. Por ello, BattlEye sigue tomando medidas contra ellos. La compañía ha desarrollado un baneo automático. Cuando se detecta el software de las trampas, el jugador es baneado automáticamente. Lo que ha dado muy buenos resultados. Junto a ello, la kill cam introducida en uno de los últimos parches. Esta ha permitido que los jugadores también descubran si sus asesinos son tramposos. Y así, poder reportarlos para que BattlEye los bannee. A pesar de todas estas medidas y de los millones de usuarios muchos son los que consiguen librarse de los baneos. La compañía seguirá tomando medidas para acabar de una vez con los tramposos y hacer de ello un juego justo para todos. BattlEye y PUBG Corp se han comprometido a seguir buscando cualquier vía disponible para detener a estos tramposos.</div>
+        </div>
+    </article>   
+
+    <article>
+        <header>
+            <h3>Microsoft celebra los 4 millones de jugadores de PUBG en Xbox One</h3>
+        </header>
+        
+        <img src="./img/noticia3.jpg" alt="noticia"/>
+        
+        <div class="content">
+            <div class="show">
+               Microsoft está de enhorabuena. Playerunknown's Battlegrounds ha sido todo un éxito en Xbox One, reuniendo a más de cuatro millones de jugadores en la plataforma, según ha comunicado la empresa de forma oficial. Para celebrarlo, ha anunciado que regalará 30 000 Battle Points para objetos cosméticos a todos los usuarios.
+               Sí, el juego es un auténtica bomba comercial en PC, pero también en Xbox One. De hecho, se están efectuando continuamente cambios en la versión de consola a fin de que la experiencia sea mejor y más estable, así como equiparable a su homóloga de compatibles. Para demostrar el apoyo de Microsoft, Bluehole y PUBG Corportation a esta edición, se ha anunciado que se regalarán 30 000 Battle Points a todos lo jugadores.
+               Estos puntos, que serán canjeables por objetos cosméticos en el videojuego battle royale, llegarán a todos los jugadores que hayan creado un personaje y jugado a Playerunknown's Battlegrounds en Xbox One hasta la fecha límite del 31 de enero.
+               Playerunknown's Battlegrounds, un juego de acción multijugador en el que diversos jugadores se enfrentan entre ellos por quedar los últimos en pie, está disponible en PC y Xbox One.
+           </div>
+       </div>
+       <article>
+        <header>
+            <h3>Se preparan ajustes para la zona azul de PlayerUnknown's Battlegrounds</h3>
+        </header>
+        
+        <img src="./img/noticia4.jpg" alt="noticia"/>
+        
+        <div class="content">
+            <div class="show">
+                Bluehole ha anunciado que sigue trabajando en mejorar el equilibrio de las partidas de su exitoso PlayerUnknown's Battlegrounds y han indicado que, a partir de las opiniones y experiencias recogidas, van a introducir cambios para que las partidas sean "más igualadas y menos caóticas". 
+                La compañía va a introducir cambios en la zona azul y para ello han integrado ya algunas modificaciones para probar estos cambios. Como saben los jugadores del título, la zona azul es una estrategia del juego para delimitar la zona de juego en la segunda mitad de la partida. Así se aproxima a los jugadores para que no queden dispersos en el mapa y que baje el ritmo.En las pruebas se ha reducido el tiempo de espera de la zona azul y se incrementa el daño que recibe cada segundo que pasa un jugador que quede fuera de esa zona. También se reduce el ritmo al que la zona se va haciendo más pequeña.
+                Los cambios parecen destinados, en definitiva, a mejorar el ritmo de juego en la segunda mitad de los encuentros pero evitando que los usuarios puedan morir accidentalmente por quedar fuera de la zona azul.
+            </div>
+        </div>
+    </article>
+</article>
+
+<article>
+    <header>
+        <h3>Los padres de PUBG no tienen una 'hoja de ruta' para la futura versión 2.0</h3>
+    </header>
+
+    <img src="./img/noticia5.jpg" alt="noticia"/>
+
+    <div class="content">
+        <div class="show">
+            En PUBG Corporation, división de Bluehole y responsables del éxito de Playerunknown's Battlegrounds, están más preocupados de hacer el videojuego actual un título mejor de lo que ya es que de futuras versiones o contenidos hipotéticos para el título. Así lo ha confirmado Chang Han Kim, máximo dirigente de la empresa a <i>GameIndustry.biz</i>.
+            En los últimos meses hemos estado más enfocados y centrados en salir de la versión de acceso anticipado que de otros menesteres, por eso creo que la versión 1.0 es un número, una meta icónica..." explica Chang Han Kim. "Se trata de mantener el compromiso con nuestra comunidad, porque hemos prometido en el pasado que lanzaríamos el videojuego tan pronto como nos fuera posible, y era lo que todo el mundo quería", añade.
+            "Nos hemos asegurado de que tenía todo aquello que se buscaba y pedía. La versión 2.0 o incluso la 3.0, no tiene un significado real para nosotros en este momento. Vemos Playerunknown's Battlegrounds como un videojuego en infinita evolución. No tenemos una hoja de ruta clara más allá de la versión 2.0 o más allá. La versión actual, que está bastante bien, sigue necesitando mejoras y trabajo. Ese es nuestro objetivo principal: pulir el videojuego en su forma actual para hacerlo mejor", argumenta.
+            "Segundo, queremos aumentar y mejorar la vertiente competitiva del videojuego. Queremos que la jugabilidad sea más competitiva y que se pueda disfrutar de una mejor manera en el juego y por los jugadores. Nos centraremos todo este año en mejorar estos dos aspectos del título", concluía.
+        </div>
+    </div>
+
+</article>
+
+</section>
+
+<footer id="main-footer">
+    <p>Copyright &copy; Curso 2017-2018 Álex Olmos y Adrián Carmona, todos los derechos reservados.</p>
+</footer>
+</body>
+</html>

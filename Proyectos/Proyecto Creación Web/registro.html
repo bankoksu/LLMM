@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/registro.css">
+	<link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'>
+	<link rel="shortcut icon" type="image/x-icon" href="./img/icono.ico">
+	<script src="./js/registro.js"></script>
+	<title>Registro</title>
+</head>
+<body>
+	<header id="main-header">
+
+		<a id="logo" href="https://www.playbattlegrounds.com/main.pu"><img src="./img/logo.png" alt="logo" width="150" height="50"></a> 
+	
+		<nav>
+			<ul>
+				<li><a href="inicio.html">Inicio</a></li>
+				<li><a href="noticias.html">Noticias</a></li>
+				<li><a href="guia.html">Guia</a></li>
+				<li><a href="galeria.html">Galeria</a></li>
+				<li><a href="mapas.html">Mapas</a></li>
+			</ul>
+		</nav><!-- / nav -->
+
+	</header>
+
+	
+	<h1 id="registro">Registro</h1>
+	<div class="contenedor-formulario">
+		<div class="wrap">
+			<form action="example.htm" class="formulario" name="formulario_registro" method="get">
+				<div>
+					<div class="input-group">
+						<input type="text" id="nombre" name="nombre">
+						<label class="label" for="nombre">Nombre:</label>
+					</div>
+					<div class="input-group">
+						<input type="email" id="correo" name="correo">
+						<label class="label" for="correo">Correo:</label>
+					</div>
+					<div class="input-group">
+						<input type="password" id="pass" name="pass">
+						<label class="label" for="pass">Contraseña:</label>
+					</div>
+					<div class="input-group">
+						<input type="password" id="pass2" name="pass2">
+						<label class="label" for="pass2">Repetir Contraseña:</label>
+					</div>
+					<div class="input-group radio">
+						<input type="radio" name="sexo" id="hombre" value="Hombre">
+						<label for="hombre">Juego al PUBG</label>
+						<input type="radio" name="sexo" id="mujer" value="Mujer">
+						<label for="mujer">No juego al PUBG</label>
+					</div>
+					<div class="input-group checkbox">
+						<input type="checkbox" name="terminos" id="terminos" value="true">
+						<label for="terminos">Acepto los Terminos y Condiciones de esta página</label>
+					</div>
+
+					<input type="submit" id="btn-submit" value="Enviar">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	
+	<footer id="main-footer">
+	   <p>Copyright &copy; Curso 2017-2018 Álex Olmos y Adrián Carmona, todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>

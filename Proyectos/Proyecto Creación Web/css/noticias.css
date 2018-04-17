@@ -1,0 +1,148 @@
+/*cuerpo*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color:#D8DEEC;
+    color: #34405B;
+    background-image: url('C:/Users/adrian/Desktop/Trabajo LLLMM/img/fondo.png'); 
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 80px;
+}
+
+h2 {
+    font-family: Bungee;
+    color: #EBB830;
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 5px;
+    font-weight:bold;
+    background-color: #34405B;
+}
+
+h3{
+    text-align: center;
+}
+
+p {
+    margin: 0 0 1.5em 0;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    display:block;
+    margin:auto;
+}
+
+/*cabecera*/
+#main-header {
+    font-family: Limelight;
+    background:#34405B;
+    color: white;
+    text-shadow:
+   -1px -1px 0 black,  
+    1px -1px 0 black,
+   -1px 1px 0 black,
+    1px 1px 0 black;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+} 
+
+#main-header a {
+    color: white;
+}
+       
+/*logo*/
+#logo {
+    float: left;
+    padding: 15px 0 0 20px;
+    margin-left: 19%;
+}
+#logo:hover {
+    color: #0b76a6;
+}
+    
+/*menú de navegación*/
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+    
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+            
+nav ul li a {
+    display: block;
+    padding: 0 80px;
+    text-decoration: none;
+}
+            
+nav ul li a:hover {
+    background: #F0B61D;
+}
+    
+/*main*/
+#main-content {
+
+    background: white;
+    width: 55%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.content{
+    margin-left: 20%;
+    text-align: center;
+    width: 50%;
+}
+
+#main-content header,
+#main-content .content {
+    padding: 40px;
+}
+
+/*footer*/
+#main-footer {
+    background: #34405B  ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#main-footer p {
+    margin: 0;
+}
+    
+#main-footer a {
+    color: white;
+}
+
+/*leer más/menos parrafos*/
+.show {
+    font:normal 15px arial;
+    text-align: justify;
+    padding: 15px 0 0 0;
+}
+.morectnt span {
+    display: none;
+}
+.showmoretxt {
+    font: bold 15px tahoma;
+    text-decoration: none;
+}
