@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>Examen</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">                     
+        <link rel="stylesheet" type="text/css" href="./css/examen.css" media="all">
+        <script src="./js/examen.js"></script>        
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div id="cabecera">
+                <h1>El blog del eurivor</h1>
+            </div>
+            <nav>					
+                <ul>
+                  <li><a href="#">Empleo</a></li>
+                  <li><a href="#">Noticias</a></li>
+                  <li ><a href="#">
+                    <div class="dropdown">
+                      <button class="dropbtn">Eurivor</button>
+                      <div class="dropdown-content">
+                        <a onclick="mostrarEurivor()" href="#">Evolución del euribor</a>
+                        <a onclick="esconderTodo()" href="#">Noticias</a>
+                        <a onclick="mostrarEconomia()" href="#">Economia</a>
+                      </div>
+                    </div></a>
+
+                    </li>
+                </ul>
+            </nav>                             
+        </header>
+
+        <!-- Main -->
+        <main>
+            <div id="main">
+                <section id="evolucion">
+                    <h2 id="inf">Evolución del euribor</h2>
+                    <!-- Content -->
+                    <article class="inf">
+                        <h3>La tostadora de Thoma Thwaites</h3>
+                        <p><b id = "mayuscula">E</b>n nuestra búsqueda por encontrar un culpable genérico de todos los males que nos afectan, el capitalismo y la globalización suele ir unidos de la mano como dos de los sospechosos habituales en provocar desigualdad, esclavismo, contaminación, corrupción e injusticia, por citar sólo unos pocos de sus devastadores efectos.</p>
+                        <p><b id = "mayuscula">P</b>ero a cambio, nos da <a href="#">tostadoras.</a></p>
+                        <img src="./img/tostadora1.jpg" alt="tostadora1">
+                        <p>Actualmente por 13,95€ en menos de 24 horas puedes tener en tu casa una  “Tristar BR-1013 – Tostadora, 6 funciones ajustables, con soporte para pan, 800 W“, esto es lo que opinan un cliente.</p>
+                        <p><b id = "mayuscula">T</b>ostadora sencilla, con la potencia suficiente para tostar panes.</p>
+                        <p><b id = "mayuscula">L</b>as ranuras no son muy anchas, pero suficiente para pan de molde. Incluye bandeja para poner encima y poder calentar pan u otros elementos. No muy recomendado para descongelar. Realmente es algo que me sorprende, el que lleven a mi casa en menos de un día una tostadora nueva por menos de 15€. Existe una opción anticapitalista y antiglobalización extrema que consiste en hacerte tu mismo la tostadora. Eso es lo que intentó hace unos años Thomas Twaites, fabricarse una tostadora, como las que venden en Amazon sin ayuda de nadie. Para ello desmontó la más barata que encontró e intentó reproducir y montar cada una de sus piezas (más de 400) desde cero...</p>
+                        <p><b>El capitalismo y la globalización tiene sus consecuencias, muchas negativas que deben ser corregidas , pero al menos nos lleva tostadoras a casa por menos de 15€.</b></p>
+                    </article>
+                </section>
+
+                <section id="economia">
+                    <h2 id="inf">Economía</h2>
+                    <!-- Content -->
+                    <article class="inf">
+                        <h3>La convulsa actualidad del sector eléctricos</h3>
+                        <p><b id = "mayuscula">L</b>a semana pasada el Gobierno, adelantándose dos años a lo previsto, comenzó a mover ficha en lo concerniente al mercado energético español. Ha sido además con una contundencia que ha sacudido la cotización de las compañías y ha puesto en alerta a los inversores en energía en nuestro país. Y no es para menos, porque el ministerio que dirige Álvaro Nadal está decidido a recortar los ingresos que reciben las compañías eléctricas y gasistas por sus redes de distribución y transporte, con el argumento de propiciar una rebaja en la factura que pagan los consumidores por la luz y el gas.</p>
+                        <img src="./img/electricas.jpg" alt="electricas">
+                        <p><b id = "mayuscula">P</b>ero parece que todo esto no es suficiente para el ministro, que ha abierto un nuevo frente con la introducción de una serie de enmiendas a la ley de medidas urgentes contra la sequía en su trámite en el Senado. Según el ministro, existe “un claro caso de sobre retribución” en los ingresos de las compañías eléctricas, algo también <b>denunciado por la Comisión Nacional de los Mercados y la Competencia (CNMV).</b></p>
+                    </article>
+                </section>
+    				
+            </div><!--cierre de span main-->
+            <!-- Sidebar -->
+        </main>
+        <!-- Footer -->
+        <footer>
+            <ul>
+                <li><a href="">Nuestras noticias</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Equipo</a></li>					
+            </ul>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+/*cabecera*/
+h1{
+    float:right;
+    margin-right: 75%;
+    background-color: red;
+}
+
+#cabecera{
+    background-color: red;
+}
+/*menu lateral*/
+
+.dropbtn {
+    width: 100%;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #00bfff}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #b300b3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 6%;
+    background-color: #ff4d4d;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #b300b3;
+    color: white;
+}
+
+
+
+/*noticias*/
+#mayuscula{
+    font-size: 120%;
+}
+
+h3{
+    text-align: right;
+    margin-right: 5%;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+h2{
+    text-align: center;
+    background-color: #ccddff;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    padding: 20px;
+
+}
+
+.inf{
+    background-color: #00bfff;
+    border-radius: 15px;
+}
+
+p{
+    margin-left: 5%;
+    width: 90%;
+    
+}
+
+img{
+    margin-left: 40%;
+    border: 1px solid #555;
+}
+
+section{
+    width: 90%;
+    margin-left:5%;
+}
+/* Footer */
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff4d4d;
+}
+
+footer li {
+    float: left;
+}
+
+footer li a {
+    margin-left: 100px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    background-color: #b300b3;
+    color: #3d5c5c;
+    border-radius: 10px;
+    border: 1px solid white;
+}
