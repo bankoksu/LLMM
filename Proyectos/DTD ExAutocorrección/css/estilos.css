@@ -1,0 +1,76 @@
+/*Cuerpo*/
+body{
+    background-image: url('../img/background.jpg');
+    color: #000000;
+    font-weight: 300;
+    font-size: 18px;
+}
+/*Cabecera*/
+header{
+    font-family: albertus medium;
+    text-align: center;
+    background: #BDDDEA;
+    border-bottom: #95a5a6 dashed 1px;
+    padding: 15px;
+    background-image: url('../img/logo.png');
+    background-size: 11%;
+    background-repeat: no-repeat;
+    background-position: auto auto;
+    border: 1px solid black;
+    border-radius: 10px
+}
+/*Título*/
+header h1{
+    width: 90%;
+    height: auto;
+    font-family: albertus medium;
+    color: #008450;
+    font-size: auto;
+}
+/*Subtítulo*/
+header h3{
+    width: 90%;
+    height: auto;
+    font-family: albertus medium;
+    color: #008450;
+    font-size: auto;
+}
+
+#myForm{
+    margin-bottom: 20%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+.pregunta {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    -webkit-box-shadow: 6px 2px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 2px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 6px 2px 5px -1px rgba(0,0,0,0.75);
+}
+
+/*Contenido*/
+#container{
+    width: 60%;
+    background: #f8f8ff;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 5px;
+    margin-top: -0.5%;
+    border: 2px solid black;
+}
+
+/*Pie de página*/
+footer{
+    font-family: albertus medium;
+    color: #008450;
+    text-align: center;
+

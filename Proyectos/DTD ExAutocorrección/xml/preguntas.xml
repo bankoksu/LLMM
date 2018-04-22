@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE preguntas SYSTEM "preguntas.dtd">
+<preguntas>
+    <pregunta>
+        <tipo>radio</tipo>
+        <enunciado>1.- ¿Qué selección fue campeona del mundial de 2014?</enunciado>
+        <img>img/copa.jpg</img>
+        <respuesta>España</respuesta>
+        <respuesta>Argentina</respuesta>
+        <respuesta correcto="true">Alemania</respuesta>
+        <respuesta>Cataluña</respuesta>
+    </pregunta>
+    <pregunta>
+        <tipo>radio</tipo>
+        <enunciado>2.- Cuál es el actual número uno mundial?</enunciado>
+        <img>img/messi.jpg</img>
+        <respuesta>Cristian Ronaldo</respuesta>
+        <respuesta correcto="true">Messi</respuesta>
+        <respuesta>Neymar</respuesta>
+        <respuesta>Iván Román</respuesta>
+    </pregunta>
+    <pregunta>
+        <tipo>check</tipo>
+        <enunciado>3.- ¿Qué dos nacionalidades tiene el delantero de la Juventus Gonzalo Higuaín?</enunciado>
+        <img>img/higuain.jpg</img>
+        <respuesta>Italiana</respuesta>
+        <respuesta correcto="true">Argentina</respuesta>
+        <respuesta correcto="true">Francesa</respuesta>
+        <respuesta>Española</respuesta>
+    </pregunta>
+    <pregunta>
+        <tipo>select</tipo>
+        <enunciado>4.- ¿Qué nombre recibe la liga de Alemania?</enunciado>
+        <img>img/escudos.jpg</img>
+        <respuesta>Calcio A</respuesta>
+        <respuesta correcto="true">Bundesliga</respuesta>
+        <respuesta>Ligue A</respuesta>
+        <respuesta>Eredvise</respuesta>
+    </pregunta>
+    <pregunta>
+        <tipo>text</tipo>
+        <enunciado>5.- ¿De qué marca es la equipación del Atlético de Madrid, Nike o Adidas?</enunciado>
+        <img>img/atletico.jpg</img>
+        <respuesta>Nike</respuesta>
+    </pregunta>
+    <pregunta>
+        <tipo>radio</tipo>
+        <enunciado>6.- ¿A qué pais pertenece el Shakhtar Donetsk?</enunciado>
+        <img>img/shaktar.jpg</img>
+        <respuesta>Italia</respuesta>
+        <respuesta>Bulgaria</respuesta>
+        <respuesta>Rumanía</respuesta>
+        <respuesta correcto="true">Ucrania</respuesta>
+    </pregunta>
+    <pregunta>
+        <tipo>select</tipo>
+        <enunciado>7.- ¿En qué año se fundó el FC Barcelona?</enunciado>
+        <img>img/barcelona.jpg</img>
+        <respuesta>1896</respuesta>
+        <respuesta correcto="true">1899</respuesta>
+        <respuesta>1990</respuesta>
+        <respuesta>1891</respuesta>
+    </pregunta>
+    <pregunta>
+        <tipo>check</tipo>
+        <enunciado>8.- ¿Qué equipos juegan cómo local en el Estadio de San Siro?</enunciado>
+        <img>img/sansiro.jpg</img>
+        <respuesta>Fiorentina</respuesta>
+        <respuesta correcto="true">Milán</respuesta>
+        <respuesta>Lazio</respuesta>
+        <respuesta correcto="true">Inter de Milán</respuesta>
+    </pregunta>
+    <pregunta>
+        <tipo>radio</tipo>
+        <enunciado>9.- ¿Qué significan las siglas VAR?</enunciado>
+        <img>img/var.jpg</img>
+        <respuesta correcto="true">Videoarbitraje</respuesta>
+        <respuesta>Visión Aérea Residual</respuesta>
+        <respuesta>Video Asistencia por Radio</respuesta>
+        <respuesta>Ninguna de las anteriores</respuesta>
+    </pregunta>
+    <pregunta>
+        <tipo>text</tipo>
+        <enunciado>10.- ¿Es en China el país dónde el mercado de fichajes acaba más tarde que el resto? Responde con Si o No.</enunciado>
+        <img>img/china.jpg</img>
+        <respuesta>Si</respuesta>
+    </pregunta>
+
+</preguntas>
