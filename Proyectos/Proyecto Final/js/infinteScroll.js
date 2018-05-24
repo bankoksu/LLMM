@@ -22,6 +22,8 @@ $(document).ready(function() {
         function pintar(json){
          $.each( json, function( i, noticia ) {
           $("#out").append( "<h1 id='" + i + "'>" + noticia.titular+ "</h1>" + "<p>" + noticia.descripcion + "</p>"  );
+          win = null;
+          $('#loading').hide();
          }); 
         }
         }
