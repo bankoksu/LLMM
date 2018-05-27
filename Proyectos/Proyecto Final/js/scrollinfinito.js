@@ -11,13 +11,6 @@ $(document).ready(function() {
         //En este punto el objeto jsonObject corresponde al fichero
           pintar( jsonObject );
         });
-
-        // //Cargamos el segundo json como objeto
-        // $.getJSON( "../json/data2.json", function( jsonObject ) {
-        // //En este punto el objeto jsonObject corresponde al fichero
-        //   pintar( jsonObject );
-        // });
-
         // Pintamos los ficheros json en html 
         function pintar(json){
          $.each( json, function( i, noticia ) {
