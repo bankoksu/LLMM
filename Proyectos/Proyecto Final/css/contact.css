@@ -1,6 +1,6 @@
 /*Jumbotron*/
 .jumbotron {
-	background-image: url('../img/tech.jpg');
+	background-image: url('../img/contact.png');
 	background-size: cover;
 	color: white;
 	font-family: impact;
@@ -36,5 +36,5 @@ margin-left:12%;
 }
 
 #enviar {
-	margin-right: 30%;
+	margin-right: 35%;
 }
