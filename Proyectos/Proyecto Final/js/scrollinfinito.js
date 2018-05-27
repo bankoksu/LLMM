@@ -7,13 +7,13 @@ $(document).ready(function() {
         if ($(document).height() - win.height() == win.scrollTop()) {
             $('#loading').show();
         //Función para cargar fichero JSON
-            $.getJSON( "./json/data1.json", function( jsonObject ) {
+            $.getJSON( "../json/data1.json", function( jsonObject ) {
         //En este punto el objeto jsonObject corresponde al fichero
           pintar( jsonObject );
         });
 
         //Cargamos el segundo json como objeto
-        $.getJSON( "./json/data2.json", function( jsonObject ) {
+        $.getJSON( "../json/data2.json", function( jsonObject ) {
         //En este punto el objeto jsonObject corresponde al fichero
           pintar( jsonObject );
         });

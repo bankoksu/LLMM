@@ -1,0 +1,40 @@
+/*Jumbotron*/
+.jumbotron {
+	background-image: url('../img/tech.jpg');
+	background-size: cover;
+	color: white;
+	font-family: impact;
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+	text-align: left;
+	border-radius: 15px;
+}
+
+.jumbotron h1 {
+margin-left:12%;
+
+}
+
+.jumbotron p {
+margin-left:12%;
+
+}
+
+.item h1 {
+	text-align: center;
+}
+
+/*Footer*/
+.footer-top {
+    padding: 60px 0;
+    background: #333;
+    text-align: left;
+    color: #aaa;
+}
+
+.form-group {
+	margin-left: 25%;
+}
+
+#enviar {
+	margin-right: 30%;
+}
