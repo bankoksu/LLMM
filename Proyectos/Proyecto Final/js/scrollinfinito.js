@@ -15,7 +15,7 @@ $(document).ready(function() {
         // Pintamos los ficheros json en html 
         function pintar(json){
          $.each( json, function( i, noticia ) {
-          $("#out").append( "<h3 id='" + i + "'>" + noticia.titular+ "</h3>" + "<p>" + "<img class='img-fluid float-left img-thumbnail mr-4' src='" + noticia.imagen + "'>" + noticia.descripcion + "</p>" + "<div class='mb-1 text-muted'>" + noticia.datetime + "</div>");
+          $("#out").append( "<h2 id='" + i + "'>" + noticia.titular+ "</h2>" + "<p>" + "<img class='img-fluid float-left img-thumbnail mr-4' src='" + noticia.imagen + "'>" + noticia.descripcion + "</p>" + "<div class='mb-1 text-muted'>" + noticia.datetime + "</div>");
           parar = parar + 1;
           $('#loading').hide();
          }); 

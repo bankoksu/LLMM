@@ -9,9 +9,9 @@ $(document).ready(function(){
         });
 
         function pintar(json){
-            $.each( json, function( i, noticia ) {
-                $("#out").append( "<h1 id='" + i + "'>" + noticia.titular+ "</h1>" + "<p>" + noticia.descripcion + "</p>"  );
-                $('#loading').hide();
+         $.each( json, function( i, noticia ) {
+          $("#out").append( "<h2 id='" + i + "'>" + noticia.titular+ "</h2>" + "<p>" + "<img class='img-fluid float-left img-thumbnail mr-4' src='" + noticia.imagen + "'>" + noticia.descripcion + "</p>" + "<div class='mb-1 text-muted'>" + noticia.datetime + "</div>");
+          $('#loading').hide();
          }); 
         }
    });
