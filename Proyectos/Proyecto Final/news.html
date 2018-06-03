@@ -9,18 +9,18 @@
 		<link rel="stylesheet" href="css/bootstrap-reboot.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<link rel="alternate" type="application/rss+xml" title="rss de l'aplicació" href="xml/rss.xml">
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-		<script type="text/javascript" src="js/filtroBuscar.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+		<script src="js/filtroBuscar.js"></script>
 		<title>helloWorld</title>
 	</head>
 	<body>
 		<div class="container">
 			<header>
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<a class="navbar-brand" href="news.html"><img src="img/logo.png" alt="logo-footer"width="54" height="54"></a>
+					<a class="navbar-brand" href="news.html"><img src="img/logo.png" alt="logo-footer" width="54" height="54"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 					</button>
@@ -55,18 +55,37 @@
 					<p class="display-4">A</p>
 				</div>
 			</div>
+			<main class="container">
+				<h1 class="mt-5">Bienvenido usuario</h1>
+				<p class="lead">Disfruta de la web líder en las Nuevas Tecnologías y el mundo Geek</p>
+				<p>Visita nuestros apartados de <a href="html/programacion.html">Programación</a> y <a href="html/tech.html">Tecnología</a></p>
+			</main>
 			<div id="myDIV">
-			<div class="item">
-				<h3>Míriam Pena, una programadora en la cima de Silicon Valley</h3>
-				<p><img class="img-fluid float-left img-thumbnail mr-4" src="img/noticia1.1.jpg" alt="Míriam Pena" width="245" height="244">La ingeniera gallega destaca por sus conocimientos en uno de los lenguajes de programación minoritarios y con más demanda.
-					Se hizo el pasaporte para su primer trabajo. Su abuela no entendía muy bien por qué se iba tan lejos. Tampoco entiende muy bien por qué sigue al otro lado del mundo, pero ella tiene claro que aquí es donde su labor tiene crecimiento e impacto. Míriam Pena, nacida en la localidad de Bueu, en Pontevedra, prefiere no dar su edad. Sabe que es uno de los requisitos de este medio, pero considera que guardar ese dato es uno de los aspectos que deben cambiar...<p><a href="html/noticia1.html">Leer más</a></p></p>
-				</div>
-				<div class="item">
-					<h3>Televisores para disfrutar del Mundial</h3>
-					<p><img class="img-fluid float-left img-thumbnail mr-4" src="img/noticia2.jpg" alt="Mundial Russia 2018" width="245" height="265">Recopilamos una lista por si te quieres rascar el bolsillo a la hora de renovar la «caja tonta» aprovechando ahora que viene el Campeonato del Mundo de fútbol.
-						A la hora de tomar una decisión de compra tan importante como un nuevo televisor para el hogar habitual es necesario prestar atención a varios atributos y factores. Si no se tiene limite de presupuesto la única razón es elegir uno de gama alta que sea de esta temporada porque te garantizas que contendrá las características imprescindibles para los próximos años...<p><a href="html/noticia2.html">Leer más</a></p></p>
+				<div class = "text-danger">NOTICIAS DESTACADAS</div>
+				<div class="item mb-5">
+					<h3>Míriam Pena, una programadora en la cima de Silicon Valley</h3>
+					<div><img class="img-fluid float-left img-thumbnail mr-4" src="img/noticia1.1.jpg" alt="Míriam Pena" width="245" height="244">La ingeniera gallega destaca por sus conocimientos en uno de los lenguajes de programación minoritarios y con más demanda.
+						Se hizo el pasaporte para su primer trabajo. Su abuela no entendía muy bien por qué se iba tan lejos. Tampoco entiende muy bien por qué sigue al otro lado del mundo, pero ella tiene claro que aquí es donde su labor tiene crecimiento e impacto. Míriam Pena, nacida en la localidad de Bueu, en Pontevedra, prefiere no dar su edad. Sabe que es uno de los requisitos de este medio, pero considera que guardar ese dato es uno de los aspectos que deben cambiar...<p><a href="html/noticia1.html">Leer más</a></p></div>
 					</div>
+					<div class="item mb-5">
+						<h3>Televisores para disfrutar del Mundial</h3>
+						<div><img class="img-fluid float-left img-thumbnail mr-4" src="img/noticia2.jpg" alt="Mundial Russia 2018" width="245" height="265">Recopilamos una lista por si te quieres rascar el bolsillo a la hora de renovar la «caja tonta» aprovechando ahora que viene el Campeonato del Mundo de fútbol.
+							A la hora de tomar una decisión de compra tan importante como un nuevo televisor para el hogar habitual es necesario prestar atención a varios atributos y factores. Si no se tiene limite de presupuesto la única razón es elegir uno de gama alta que sea de esta temporada porque te garantizas que contendrá las características imprescindibles para los próximos años...<div><a href="html/noticia2.html">Leer más</a></div></div>
+						</div>
+						<div class="item">
+						<div><a class = "text-success" href="html/programacion.html">Programación</a></div>
+						<h2>La complejidad matemática del <i>juego de la vida</i></h2>
+						<p><img class="img-fluid float-right img-thumbnail mr-4" src="img/prog4.jpg">Reglas muy sencillas pueden dar lugar a comportamientos muy complejos. Si hubiera que resumir el juego de la vida (Game of Life o, simplemente Life) en una frase, esta sería su mejor descripción. Algo que describe lo que sucede cuando se aplica un sencillo conjunto de reglas a uno de los autómatas celulares más simples que se conocen. Décadas después todavía se sigue examinando hasta donde llega esa complejidad, y cuáles son las aplicaciones prácticas de esta construcción matemática y de otras similares. <b>Un juego que es más que un juego</b>. Para explicar en qué consiste este peculiar juego surgido del mundo de la computación teórica primero hay que describir lo que es un autómata celular. En palabras sencillas es un modelo matemático que cambia paso a paso. Suele tener el aspecto de un tablero infinito, normalmente, de celdas cuadradas. Y el transcurrir del tiempo lo marca una especie de reloj universal.
+						Con cada tic se aplican unas reglas predefinidas a las "células" y se toma una decisión sobre lo que sucede individualmente con cada una de ellas. Las celdas más simples solo tienen dos estados: apagadas o encendidas. Cuando se ha completado el cálculo de todo lo que sucede en tan cuadriculado universo la operación comienza de nuevo. Todo esto puede tener lugar en un escenario geométrico con diversos patrones (triángulos, hexágonos) e incluso en más o menos de dos dimensiones: hay autómatas de una sola dimensión (celdas en línea), 3D (cubos), 4D y otras dimensiones. Sus estados también pueden ser más complejos que una simple matriz de píxeles blancos y negros. Los hay con tres, cuatro o más estados, simbolizados normalmente por colores. Lo mismo sucede con las reglas: normalmente a cada celda solo le afecta las inmediatamente adyacentes, pero se pueden inventar reglas otras más complicadas e incluso acciones a distancia.</p>
+						<div class="mb-1 text-muted">Mordor 21 ABR 2018 - 19:00</div>
+					</div>
+					<div class="item">
+					<div><a class = "text-info" href="html/tech.html">Tecnología</a></div>
+					<h2>El 68% de los consejeros delegados españoles cree que la robotización creará más empleo del que destruya</h2>
+					<p><img class="img-fluid float-right img-thumbnail mr-4" src="img/tech5.jpg">Casi siete de cada diez empresarios y directivos españoles, el 68%, cree que la robotización y la inteligencia artificial creará más empleo del que destruya en los próximos tres años, según el informe CEO Outlook 2018 elaborado por la consultora KPMG. El informe utiliza las respuestas de 1.300 presidentes y directivos de empresas radicadas en 11 países diferentes, entre ellos España, donde han participado 50 consejeros delegados. Además, solo el 44% de los empresarios españoles asegura estar preparado ante un ciberataque —frente al 51% global—, aunque el 32% cree que son inevitables. Los consejeros delegados, tanto en lo nacional (96%) como en términos mundiales (95%) se muestran optimistas ante la transformación digital y conciben la disrupción tecnológica "como una oportunidad" en vez de como una amenaza. Así, el 56% de los consejeros delegados de compañías españolas espera aumentar la plantilla entre el 6% y el 10%, por encima de la media global en la que la mayoría (54%) apuesta por aumentar los puestos de trabajo en un 5%. Estas necesidades de contratación están ligadas principalmente a la transformación digital. De hecho, el 54% reconoce estar contratando nuevo talento al margen de los objetivos de crecimiento futuro, siendo los científicos de datos el perfil más valorado. El 72% de los empresarios españoles espera conseguir un retorno significativo de la inversión en transformación digital en los próximos uno o tres años, 15 puntos porcentuales por encima de la cifra global, que se sitúa en el 57%. En general, los consejeros delegados se muestran optimistas sobre la evolución de la economía en los próximos tres años, pero el estudio explica que "son realistas a la hora de fijar sus objetivos de crecimiento porque saben que la gestión empresarial es muy compleja". Además, en cifras globales los empresarios encuestados confían en un 90% en la buena evolución de su compañía hasta el año 2020, mientras que en España este dato desciende hasta el 64%, dos décimas por debajo que la registrada en 2017. El 56% de los directivos españoles (55% del global) espera un crecimiento anual de los ingresos de hasta el 2% en los próximos tres años.</p>
+					<div class="mb-1 text-muted">Alcorcón 06 MAY 2018 - 18:00</div>
 				</div>
+					</div>
 				</div>
 				<!-- Footer -->
 				<footer>
@@ -74,7 +93,7 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated">
-									<img src="img/logo.png" alt="logo-footer"width="74" height="74">
+									<img src="img/logo.png" alt="logo-footer" width="74" height="74">
 									<p>
 										Sómos una web de noticias especializada en el mundo de la programación y las nuevas tecnologías.
 									</p>
@@ -86,7 +105,7 @@
 									<p>C/ Eusebio Estada 112, Edificio 3</p>
 									<p>Teléfono: (+34) 971 12 68 34</p>
 									<p>Email: <a href="mailto:sportnews@domain.com">helloworld@domain.com</a></p>
-									<p></i> Skype: helloWorld</p>
+									<p>Skype: helloWorld</p>
 								</div>
 								<div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated">
 									<h3>Síguenos</h3>
@@ -98,13 +117,13 @@
 											<a href="https://twitter.com/?lang=es">Twitter</a>
 										</li>
 										<li>
-											<a href="https://www.google.es/"></i>Google</a>
+											<a href="https://www.google.es/">Google</a>
 										</li>
 										<li>
 											<a href="https://www.instagram.com/">Instagram</a>
 										</li>
 										<li>
-											<a href="https://www.pinterest.es/"></i>Pinterest</a>
+											<a href="https://www.pinterest.es/">Pinterest</a>
 										</li>
 									</ul>
 								</div>
