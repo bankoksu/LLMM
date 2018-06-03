@@ -13,7 +13,8 @@
 		<script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.bundle.js"></script>
-		<title>Proyecto Final</title>
+		<script type="text/javascript" src="../js/filtroBuscar.js"></script>
+		<title>¿Quiénes somos?</title>
 	</head>
 	<body>
 		<div class="container">
@@ -43,8 +44,7 @@
 							</li>
 						</ul>
 						<form class="form-inline my-2 my-lg-0">
-							<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+							<input id="myInput" class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
 						</form>
 					</div>
 				</nav>
@@ -55,89 +55,91 @@
 					<p class="display-4"><img src="../img/info.png" alt="logo-footer"width="84" height="84"></p>
 				</div>
 			</div>
-			<div class="item">
-				<h1 class="text-primary">helloWorld ©</h1>
-				<p>Somos una empresa de confianza y con años de experiencia en el sector, con respuesta inmediata y máxima seriedad en nuestros servicios. Nos dedicamos a aportar los mejores profesionales y un servicio cercano de personal para tu negocio. Nos adaptamos siempre a tus necesidades y somos flexibles. una empresas de soluciones tecnológicas en la cual trabajamos un grupo de Geeks apasionados por aprender mas acerca de latecnología para luego transmitir nuestro aprendizaje a nuestros clientes e interactuar con ellos para resolver u optimizar diversos problemas. Nos  involucrarnos con nuestros clientes para poder conocer mejor su negocio y poder aplicar nuestra investigación constante. Las Nuevas Tecnologías y las empresas tecnológicas son parte de la vida cotidiana de todos,  y desde Baquia.com queremos contribuir a la divulgación de todo lo que interesa en el mundo de Internet, las Redes Sociales, los mejores gadgets, las startups más innovadoras y la industria del futuro. Si eres un enamorado de este mundo y necesitas estar siempre al tanto de las últimas novedades, este es tu sitio. Nuestra comunidad la forman emprendedores, grandes empresarios, profesionales TIC y locos por las Nuevas Tecnologías. Si estás pensando en formar una empresa, aquí podrás informarte sobre casos de éxito en el sector emprendedores, conocer lo último en empresas del sector tecnológico y de startups españolas y de todo el mundo.</p>
-			</div>
-			<div class="container marketing">
-				<!-- Three columns of text below the carousel -->
-				<div class="row">
-							<div class="col-lg-4">
-								<img class="img-fluid rounded-circle" src="../img/news.gif" alt="news gif" width="140" height="140">
-								<h2 class="text-primary">Noticias</h2>
-								<p>Sómos una web dedicada a las ciencias de la información con más de 1 mes de experiencia en el sector con grandes referencias acerca de nuestros servicios por los usuarios y en constante crecimiento.</p>
+			<div id="myDIV">
+				<div class="item">
+					<h1 class="text-primary">helloWorld ©</h1>
+					<p>Somos una empresa de confianza y con años de experiencia en el sector, con respuesta inmediata y máxima seriedad en nuestros servicios. Nos dedicamos a aportar los mejores profesionales y un servicio cercano de personal para tu negocio. Nos adaptamos siempre a tus necesidades y somos flexibles. una empresas de soluciones tecnológicas en la cual trabajamos un grupo de Geeks apasionados por aprender mas acerca de latecnología para luego transmitir nuestro aprendizaje a nuestros clientes e interactuar con ellos para resolver u optimizar diversos problemas. Nos  involucrarnos con nuestros clientes para poder conocer mejor su negocio y poder aplicar nuestra investigación constante. Las Nuevas Tecnologías y las empresas tecnológicas son parte de la vida cotidiana de todos,  y desde Baquia.com queremos contribuir a la divulgación de todo lo que interesa en el mundo de Internet, las Redes Sociales, los mejores gadgets, las startups más innovadoras y la industria del futuro. Si eres un enamorado de este mundo y necesitas estar siempre al tanto de las últimas novedades, este es tu sitio. Nuestra comunidad la forman emprendedores, grandes empresarios, profesionales TIC y locos por las Nuevas Tecnologías. Si estás pensando en formar una empresa, aquí podrás informarte sobre casos de éxito en el sector emprendedores, conocer lo último en empresas del sector tecnológico y de startups españolas y de todo el mundo.</p>
+				</div>
+				<div class="container marketing">
+					<!-- Three columns of text below the carousel -->
+					<div class="row">
+						<div class="col-lg-4">
+							<img class="img-fluid rounded-circle" src="../img/news.gif" alt="news gif" width="140" height="140">
+							<h2 class="text-primary">Noticias</h2>
+							<p>Sómos una web dedicada a las ciencias de la información con más de 1 mes de experiencia en el sector con grandes referencias acerca de nuestros servicios por los usuarios y en constante crecimiento.</p>
 							</div><!-- /.col-lg-4 -->
 							<div class="col-lg-4">
 								<img class="rounded-circle" src="../img/programming.gif" alt="programming gif" width="140" height="140">
 								<h2 class="text-primary">Programación</h2>
 								<p>Una de nuestras especialidades es el mundo de la programación y todo lo que lo rodea. Te ofrecemos toda la actualidad e información sobre los lenguajes más utilizados así como nuevos por aparecer y los cotilleos de Silicon Valley.</p>
-							</div><!-- /.col-lg-4 -->
-							<div class="col-lg-4">
-								<img class="rounded-circle" src="../img/tech.gif" alt="tech gif" width="140" height="140">
-								<h2 class="text-primary">Tecnología</h2>
-								<p>¿Te gusta el mundo de las nuevas tecnologías y la robótica? Pues me temo que este es tu sitio amig@. En HelloWorld te mantenemos al tanto de las nuevas creaciones del ser humano para avanzar en esta sociedad "gobernada" por las máquinas.</p>
 								</div><!-- /.col-lg-4 -->
 								<div class="col-lg-4">
-								<img class="rounded-circle" src="../img/search.gif" alt="search gif" width="140" height="140">
-								<h2 class="text-primary">Búsqueda</h2>
-								<p>Tenemos en plantilla a los mejores periodiste e investigadores trabajando día a día para obtener las noticias más interesantes y estar siempre al tanto.</p>
-							</div><!-- /.col-lg-4 -->
-							<div class="col-lg-4">
-								<img class="rounded-circle" src="../img/check.gif" alt="check gif" width="140" height="140">
-								<h2 class="text-primary">Fiabilidad</h2>
-								<p>Teniendo a los mejores profesionales al mando, garantizamos un alto porcentaje de fiabilidad y contraste en nuestras noticias, estamos para decir la verdad y nada más que la verdad.</p>
-							</div><!-- /.col-lg-4 -->
-							<div class="col-lg-4">
-								<img class="rounded-circle" src="../img/contact.gif" alt="contact gif" width="140" height="140">
-								<h2 class="text-primary">Contacto</h2>
-								<p>Dispones de un buen servicio de atención al cliente para resolver cualquier incidencia sucedida con nuestra web, así como para trabajar con nosotros. Rellena nuestro formulario de contacto si te surge cualquier duda.</p>
-								</div>
-				</div><!-- /.row -->
-			</div>
-		</div>
-						<!-- Footer -->
-						<footer>
-							<div class="footer-top">
-								<div class="container">
-									<div class="row">
-										<div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated">
-											<img src="../img/logo.png" alt="logo-footer"width="74" height="74">
-											<p>
-												Sómos una web de noticias especializada en el mundo de la programación y las nuevas tecnologías.
-											</p>
-											<p><a href="info.html">Nosotros</a></p>
-											<p>© Web diseñada por <a href="https://www.linkedin.com/in/adrián-carmona-belmonte-3b1940162">Adrián Carmona</a></p>
-										</div>
-										<div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated">
-											<h3>Contacto</h3>
-											<p>C/ Eusebio Estada 112, Edificio 3</p>
-											<p>Teléfono: (+34) 971 12 68 34</p>
-											<p>Email: <a href="mailto:sportnews@domain.com">helloworld@domain.com</a></p>
-											<p></i> Skype: helloWorld</p>
-										</div>
-										<div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated">
-											<h3>Síguenos</h3>
-											<ul style="list-style-type:none">
-												<li>
-													<a href="https://es-es.facebook.com/">Facebook</a>
-												</li>
-												<li>
-													<a href="https://twitter.com/?lang=es">Twitter</a>
-												</li>
-												<li>
-													<a href="https://www.google.es/"></i>Google</a>
-												</li>
-												<li>
-													<a href="https://www.instagram.com/">Instagram</a>
-												</li>
-												<li>
-													<a href="https://www.pinterest.es/"></i>Pinterest</a>
-												</li>
-											</ul>
+									<img class="rounded-circle" src="../img/tech.gif" alt="tech gif" width="140" height="140">
+									<h2 class="text-primary">Tecnología</h2>
+									<p>¿Te gusta el mundo de las nuevas tecnologías y la robótica? Pues me temo que este es tu sitio amig@. En HelloWorld te mantenemos al tanto de las nuevas creaciones del ser humano para avanzar en esta sociedad "gobernada" por las máquinas.</p>
+									</div><!-- /.col-lg-4 -->
+									<div class="col-lg-4">
+										<img class="rounded-circle" src="../img/search.gif" alt="search gif" width="140" height="140">
+										<h2 class="text-primary">Búsqueda</h2>
+										<p>Tenemos en plantilla a los mejores periodiste e investigadores trabajando día a día para obtener las noticias más interesantes y estar siempre al tanto.</p>
+										</div><!-- /.col-lg-4 -->
+										<div class="col-lg-4">
+											<img class="rounded-circle" src="../img/check.gif" alt="check gif" width="140" height="140">
+											<h2 class="text-primary">Fiabilidad</h2>
+											<p>Teniendo a los mejores profesionales al mando, garantizamos un alto porcentaje de fiabilidad y contraste en nuestras noticias, estamos para decir la verdad y nada más que la verdad.</p>
+											</div><!-- /.col-lg-4 -->
+											<div class="col-lg-4">
+												<img class="rounded-circle" src="../img/contact.gif" alt="contact gif" width="140" height="140">
+												<h2 class="text-primary">Contacto</h2>
+												<p>Dispones de un buen servicio de atención al cliente para resolver cualquier incidencia sucedida con nuestra web, así como para trabajar con nosotros. Rellena nuestro formulario de contacto si te surge cualquier duda.</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</footer>
-					</body>
-				</html>
+							<!-- Footer -->
+							<footer>
+								<div class="footer-top">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated">
+												<img src="../img/logo.png" alt="logo-footer"width="74" height="74">
+												<p>
+													Sómos una web de noticias especializada en el mundo de la programación y las nuevas tecnologías.
+												</p>
+												<p><a href="info.html">Nosotros</a></p>
+												<p>© Web diseñada por <a href="https://www.linkedin.com/in/adrián-carmona-belmonte-3b1940162">Adrián Carmona</a></p>
+											</div>
+											<div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated">
+												<h3>Contacto</h3>
+												<p>C/ Eusebio Estada 112, Edificio 3</p>
+												<p>Teléfono: (+34) 971 12 68 34</p>
+												<p>Email: <a href="mailto:sportnews@domain.com">helloworld@domain.com</a></p>
+												<p></i> Skype: helloWorld</p>
+											</div>
+											<div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated">
+												<h3>Síguenos</h3>
+												<ul style="list-style-type:none">
+													<li>
+														<a href="https://es-es.facebook.com/">Facebook</a>
+													</li>
+													<li>
+														<a href="https://twitter.com/?lang=es">Twitter</a>
+													</li>
+													<li>
+														<a href="https://www.google.es/"></i>Google</a>
+													</li>
+													<li>
+														<a href="https://www.instagram.com/">Instagram</a>
+													</li>
+													<li>
+														<a href="https://www.pinterest.es/"></i>Pinterest</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</footer>
+						</body>
+					</html>

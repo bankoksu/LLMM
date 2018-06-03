@@ -13,7 +13,8 @@
 		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-		<title>Proyecto Final</title>
+		<script type="text/javascript" src="js/filtroBuscar.js"></script>
+		<title>helloWorld</title>
 	</head>
 	<body>
 		<div class="container">
@@ -43,8 +44,7 @@
 							</li>
 						</ul>
 						<form class="form-inline my-2 my-lg-0">
-							<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+							<input id="myInput" class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
 						</form>
 					</div>
 				</nav>
@@ -55,60 +55,62 @@
 					<p class="display-4">A</p>
 				</div>
 			</div>
+			<div id="myDIV">
 			<div class="item">
 				<h3>Míriam Pena, una programadora en la cima de Silicon Valley</h3>
 				<p><img class="img-fluid float-left img-thumbnail mr-4" src="img/noticia1.1.jpg" alt="Míriam Pena" width="245" height="244">La ingeniera gallega destaca por sus conocimientos en uno de los lenguajes de programación minoritarios y con más demanda.
-				Se hizo el pasaporte para su primer trabajo. Su abuela no entendía muy bien por qué se iba tan lejos. Tampoco entiende muy bien por qué sigue al otro lado del mundo, pero ella tiene claro que aquí es donde su labor tiene crecimiento e impacto. Míriam Pena, nacida en la localidad de Bueu, en Pontevedra, prefiere no dar su edad. Sabe que es uno de los requisitos de este medio, pero considera que guardar ese dato es uno de los aspectos que deben cambiar...<p><a href="html/noticia1.html">Leer más</a></p></p>
-			</div>
-			<div class="item">
-				<h3>Televisores para disfrutar del Mundial</h3>
-				<p><img class="img-fluid float-left img-thumbnail mr-4" src="img/noticia2.jpg" alt="Mundial Russia 2018" width="245" height="265">Recopilamos una lista por si te quieres rascar el bolsillo a la hora de renovar la «caja tonta» aprovechando ahora que viene el Campeonato del Mundo de fútbol.
-				A la hora de tomar una decisión de compra tan importante como un nuevo televisor para el hogar habitual es necesario prestar atención a varios atributos y factores. Si no se tiene limite de presupuesto la única razón es elegir uno de gama alta que sea de esta temporada porque te garantizas que contendrá las características imprescindibles para los próximos años...<p><a href="html/noticia2.html">Leer más</a></p></p>
-			</div>
-		</div>
-		<!-- Footer -->
-		<footer>
-			<div class="footer-top">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated">
-							<img src="img/logo.png" alt="logo-footer"width="74" height="74">
-							<p>
-								Sómos una web de noticias especializada en el mundo de la programación y las nuevas tecnologías.
-							</p>
-							<p><a href="html/info.html">Nosotros</a></p>
-							<p>© Web diseñada por <a href="https://www.linkedin.com/in/adrián-carmona-belmonte-3b1940162">Adrián Carmona</a></p>
-						</div>
-						<div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated">
-							<h3>Contacto</h3>
-							<p>C/ Eusebio Estada 112, Edificio 3</p>
-							<p>Teléfono: (+34) 971 12 68 34</p>
-							<p>Email: <a href="mailto:sportnews@domain.com">helloworld@domain.com</a></p>
-							<p></i> Skype: helloWorld</p>
-						</div>
-						<div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated">
-							<h3>Síguenos</h3>
-							<ul style="list-style-type:none">
-								<li>
-									<a href="https://es-es.facebook.com/">Facebook</a>
-								</li>
-								<li>
-									<a href="https://twitter.com/?lang=es">Twitter</a>
-								</li>
-								<li>
-									<a href="https://www.google.es/"></i>Google</a>
-								</li>
-								<li>
-									<a href="https://www.instagram.com/">Instagram</a>
-								</li>
-								<li>
-									<a href="https://www.pinterest.es/"></i>Pinterest</a>
-								</li>
-							</ul>
-						</div>
+					Se hizo el pasaporte para su primer trabajo. Su abuela no entendía muy bien por qué se iba tan lejos. Tampoco entiende muy bien por qué sigue al otro lado del mundo, pero ella tiene claro que aquí es donde su labor tiene crecimiento e impacto. Míriam Pena, nacida en la localidad de Bueu, en Pontevedra, prefiere no dar su edad. Sabe que es uno de los requisitos de este medio, pero considera que guardar ese dato es uno de los aspectos que deben cambiar...<p><a href="html/noticia1.html">Leer más</a></p></p>
+				</div>
+				<div class="item">
+					<h3>Televisores para disfrutar del Mundial</h3>
+					<p><img class="img-fluid float-left img-thumbnail mr-4" src="img/noticia2.jpg" alt="Mundial Russia 2018" width="245" height="265">Recopilamos una lista por si te quieres rascar el bolsillo a la hora de renovar la «caja tonta» aprovechando ahora que viene el Campeonato del Mundo de fútbol.
+						A la hora de tomar una decisión de compra tan importante como un nuevo televisor para el hogar habitual es necesario prestar atención a varios atributos y factores. Si no se tiene limite de presupuesto la única razón es elegir uno de gama alta que sea de esta temporada porque te garantizas que contendrá las características imprescindibles para los próximos años...<p><a href="html/noticia2.html">Leer más</a></p></p>
 					</div>
 				</div>
-			</div>
-		</footer>
-	</body>
-</html>
+				</div>
+				<!-- Footer -->
+				<footer>
+					<div class="footer-top">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated">
+									<img src="img/logo.png" alt="logo-footer"width="74" height="74">
+									<p>
+										Sómos una web de noticias especializada en el mundo de la programación y las nuevas tecnologías.
+									</p>
+									<p><a href="html/info.html">Nosotros</a></p>
+									<p>© Web diseñada por <a href="https://www.linkedin.com/in/adrián-carmona-belmonte-3b1940162">Adrián Carmona</a></p>
+								</div>
+								<div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated">
+									<h3>Contacto</h3>
+									<p>C/ Eusebio Estada 112, Edificio 3</p>
+									<p>Teléfono: (+34) 971 12 68 34</p>
+									<p>Email: <a href="mailto:sportnews@domain.com">helloworld@domain.com</a></p>
+									<p></i> Skype: helloWorld</p>
+								</div>
+								<div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated">
+									<h3>Síguenos</h3>
+									<ul style="list-style-type:none">
+										<li>
+											<a href="https://es-es.facebook.com/">Facebook</a>
+										</li>
+										<li>
+											<a href="https://twitter.com/?lang=es">Twitter</a>
+										</li>
+										<li>
+											<a href="https://www.google.es/"></i>Google</a>
+										</li>
+										<li>
+											<a href="https://www.instagram.com/">Instagram</a>
+										</li>
+										<li>
+											<a href="https://www.pinterest.es/"></i>Pinterest</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</body>
+		</html>

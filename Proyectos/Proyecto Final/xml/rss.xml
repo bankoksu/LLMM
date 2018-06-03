@@ -2,18 +2,18 @@
 <rss version="2.0">
 
 <channel>
-  <title>W3Schools Home Page</title>
-  <link>https://www.w3schools.com</link>
-  <description>Free web building tutorials</description>
+  <title>Hello World Page</title>
+  <link>../news.html</link>
+  <description>Noticias Programación y Tecnología</description>
   <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
+    <title>Programación</title>
+    <link>../html/programacion.html</link>
+    <description>Noticias Programación</description>
   </item>
   <item>
-    <title>XML Tutorial</title>
-    <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
+    <title>Tecnología</title>
+    <link>../html/tech.html</link>
+    <description>Noticias Tecnología</description>
   </item>
 </channel>
 
