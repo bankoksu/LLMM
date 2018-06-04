@@ -1,3 +1,5 @@
+/*Filtro buscar*/
+/*https://www.w3schools.com/jquery/jquery_filters.asp*/
 $(document).ready(function(){
 		$("#myInput").on("keyup", function() {
 		var value = $(this).val().toLowerCase();
