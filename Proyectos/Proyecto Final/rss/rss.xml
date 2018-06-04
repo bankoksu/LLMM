@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Hello World Page</title>
+  <link>../news.html</link>
+  <description>Noticias Programación y Tecnología</description>
+  <item>
+    <title>Míriam Pena, una programadora en la cima de Silicon Valley</title>
+    <link>../html/noticia1.html</link>
+    <description>La ingeniera gallega destaca por sus conocimientos en uno de los lenguajes de programación minoritarios y con más demanda</description>
+  </item>
+  <item>
+    <title>Televisores para disfrutar del Mundial</title>
+    <link>../html/noticia2.html</link>
+    <description>Recopilamos una lista por si te quieres rascar el bolsillo a la hora de renovar la «caja tonta» aprovechando ahora que viene el Campeonato del Mundo de fútbol</description>
+  </item>
+</channel>
+
+</rss>
