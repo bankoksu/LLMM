@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-
 <channel>
   <title>Hello World Page</title>
   <link>../news.html</link>
@@ -16,5 +15,4 @@
     <description>Recopilamos una lista por si te quieres rascar el bolsillo a la hora de renovar la «caja tonta» aprovechando ahora que viene el Campeonato del Mundo de fútbol</description>
   </item>
 </channel>
-
 </rss>
