@@ -1,21 +1,21 @@
+/*barra nav*/
+#navegador {
+	width: 65%;
+	margin: 0 auto;
+}
+
 /*Jumbotron*/
 .jumbotron {
 	background-image: url('../img/info.jpg');
 	background-size: cover;
-	color: #00ace6;
-	font-family: impact;
-	text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-	text-align: right;
+	margin: 0 auto;
 	border-radius: 15px;
-}
-
-.jumbotron p {
-margin-right:15%;
-
-}
-
-.item h1 {
+	width: 65%;
+	color: white;
 	text-align: center;
+	font-size: 250%;
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+	font-family: Impact, Charcoal, sans-serif
 }
 
 /*Footer*/
@@ -25,3 +25,26 @@ margin-right:15%;
     text-align: left;
     color: #aaa;
 }
+
+/*icono cargando*/
+#loading {
+    display: none;
+    text-align: center;
+}
+
+/*anuncio*/
+#anuncioAbajo {
+	display: none;
+}
+
+@media screen and (max-width: 1200px) {
+	#anuncio{
+	display:none;
+	}
+
+	#anuncioAbajo {
+		display: block;
+	}
+
+}
+
